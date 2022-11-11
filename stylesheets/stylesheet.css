@@ -1,0 +1,24 @@
+body {
+    background-color: #f2e9dd;
+}
+
+.f1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 2px 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #5394a0;
+  }
+  
