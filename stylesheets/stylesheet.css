@@ -33,7 +33,7 @@ a{
 textarea {
     resize: none;
     max-width: 100%;
-    width: 1500px; 
+    width: 1000px; 
     height: 200px;
     margin: 10px ;
 
@@ -52,7 +52,8 @@ textarea {
     flex-direction: column;
 }
 .footer_links{
-    display: flex; 
+    display: flex;
+    
 }
 
 img {
@@ -97,8 +98,6 @@ button{
   }
 
 
-
-
   .sidenav {
     margin: 0;
     padding: 0;
@@ -115,28 +114,29 @@ button{
 @media screen and (min-width: 600px) {
     body{
         display: grid;
-        grid-template-columns: 1fr 4fr ;
-        grid-template-rows: 0.5fr 1.5fr .5fr;
-       
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 3fr 2fr;
+    
     }
 
     .sidenav {
-        margin: 0;
+        /* margin: 0;
         padding: 0;
         width: 200px;
         background-color: #faf4ed;
-        /* position: fixed; */
         height: 100%;
         overflow: auto;
         border: none;
         grid-column: 1/2 ;
-        grid-row: 1/-1;
+        grid-row: 1/-1; */
     }
-        .mobile_div_nav{
+       /* .mobile_div_nav{
             justify-content: right;
             margin: 10px;
         }
-        nav{
+
+
+         nav{
             padding: 10px; 
         }
     h2{
@@ -157,6 +157,7 @@ button{
       }
       .button_red {
         padding: 2px 15px;
-        margin: 10px ;
-      }
+        margin: 1px ;
+      } */
 }
+
