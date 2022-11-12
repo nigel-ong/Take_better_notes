@@ -16,7 +16,6 @@ a{
 }
 
 .mobile_div_nav{
-  /* controls the nav for the mobile page  */
   font-weight: bold;
   display: flex;
   justify-content: space-around;
@@ -38,6 +37,8 @@ textarea {
   resize: none;
   margin: 10px;
   flex-grow: 1;
+  outline: #0E4358 solid 2px;
+  background-color: #faf4ed;
 }
 
 .mobile_div_bottom_buttons{
@@ -101,20 +102,18 @@ li{
 .sidenav {
   margin: 0;
   padding: 0;
-  /* width: 200px; */
   background-color: #faf4ed;
-  /* position: fixed; */
-  /* height: 200px; */
   overflow: auto;
   border-top: black solid 2px ;
   border-bottom: black solid 2px ;
+  min-width: 100px;
 }
 
 
 @media (min-width: 600px) {
   body{
       display: grid;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 4fr;
       grid-template-rows: max-content 1fr max-content;
 
 
