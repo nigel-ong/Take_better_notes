@@ -8,8 +8,7 @@ body {
 h1{
     text-align: center;
 }
-main{
-}
+
 a{
     text-decoration: none;
 }
@@ -56,11 +55,6 @@ textarea {
     display: flex;
     
 }
-
-/* nav{
-    font-weight: bold;
-    text-align: right;
-  } */
 
 img {
     max-width: 100%;
@@ -119,18 +113,48 @@ button{
   }
   
 
-  /* @media screen and (max-width: 700px) {
+@media screen and (min-width: 600px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 2fr 3fr;
+       
+    }
+
     .sidenav {
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: #f1f1f1;
-        position: fixed;
+        background-color: #faf4ed;
+        /* position: fixed; */
         height: 100%;
         overflow: auto;
+        border: none;
+        grid-column: 1/2 ;
+        grid-row: 1/-1;
     }
 
-    .button_blue_note {
-    background-color: red;
-    padding: 1% 5%;
-    margin: 10px;
+        .button_blue_save {
+        background-color: red;
+        padding: 1% 5%;
+        margin: 10px;
+        }
+    
+        .mobile_div_nav{
+            justify-content: right;
+            margin: 10px;
+        }
+        nav{
+            padding: 10px; 
+        }
+    h2{
+        text-align: center;
+    }
+    .bigbox
+    {
+        grid-column: 3/-1;
+        grid-row: 3/3
+    }
+
+
+}
