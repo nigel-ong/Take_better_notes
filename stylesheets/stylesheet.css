@@ -1,163 +1,163 @@
 body {
-    background-color: #f2e9dd;
-    font-family: 'Roboto Mono', Courier, monospace;
-    color: #0E4358;
-    display: flex;
-    flex-direction: column;
+  background-color: #f2e9dd;
+  font-family: 'Roboto Mono', Courier, monospace;
+  color: #0E4358;
+  display: flex;
+  flex-direction: column;
 }
 h1{
-    text-align: center;
+  text-align: center;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mobile_div_nav{
-    /* controls the nav for the mobile page  */
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
+  /* controls the nav for the mobile page  */
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
 }
 
 .mobile_div_top_buttons{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .div_textbox{
-    display: flex;
+  display: flex;
 }
 
 textarea {
-    resize: none;
-    max-width: 100%;
-    width: 1000px; 
-    height: 200px;
-    margin: 10px ;
+  resize: none;
+  max-width: 100%;
+  width: 1000px; 
+  height: 200px;
+  margin: 10px ;
 
-  }
+}
 
 .mobile_div_bottom_buttons{
-    display: flex;
-    justify-content: flex-end;
-    
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 .foot_KIT_LkIn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer_links{
-    display: flex;
-    
+  display: flex;
+  
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-  }
-
-button{
-    border: 0;
-    line-height: 2.5;
-    padding: 2px 15px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
-  .button_blue_note {
-    background-color: #0E4358;
-    padding: 1% 5%;
-    margin: 10px;
-  }
-  .button_purple {
-    background-color: #6e6987;
-    padding: 1% 5%;
-    margin: 10px;
-  }
-  .button_blue_save {
-    background-color: #0E4358;
-    padding: 1% 5%;
-    margin: 10px;
-  }
-  .button_red {
-    background-color: #d9827c;
-    padding: 1% 5%;
-    margin: 10px;
-  }
+button{
+  border: 0;
+  line-height: 2.5;
+  padding: 2px 15px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
 
-  li{
-    font-weight: bold;
-    list-style-type: square;
-  }
+.button_blue_note {
+  background-color: #0E4358;
+  padding: 1% 5%;
+  margin: 10px;
+}
+.button_purple {
+  background-color: #6e6987;
+  padding: 1% 5%;
+  margin: 10px;
+}
+.button_blue_save {
+  background-color: #0E4358;
+  padding: 1% 5%;
+  margin: 10px;
+}
+.button_red {
+  background-color: #d9827c;
+  padding: 1% 5%;
+  margin: 10px;
+}
+
+li{
+  font-weight: bold;
+  list-style-type: square;
+}
 
 
-  .sidenav {
-    margin: 0;
-    padding: 0;
-    /* width: 200px; */
-    background-color: #faf4ed;
-    /* position: fixed; */
-    /* height: 200px; */
-    overflow: auto;
-    border-top: black solid 2px ;
-    border-bottom: black solid 2px ;
-  }
-  
+.sidenav {
+  margin: 0;
+  padding: 0;
+  /* width: 200px; */
+  background-color: #faf4ed;
+  /* position: fixed; */
+  /* height: 200px; */
+  overflow: auto;
+  border-top: black solid 2px ;
+  border-bottom: black solid 2px ;
+}
+
 
 @media screen and (min-width: 600px) {
-    body{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 2fr 3fr 2fr;
-    
-    }
+  body{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 2fr 3fr 2fr;
+  
+  }
 
-    .sidenav {
-        /* margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #faf4ed;
-        height: 100%;
-        overflow: auto;
-        border: none;
-        grid-column: 1/2 ;
-        grid-row: 1/-1; */
-    }
-       /* .mobile_div_nav{
-            justify-content: right;
-            margin: 10px;
-        }
-
-
-         nav{
-            padding: 10px; 
-        }
-    h2{
-        text-align: center;
-    }
-
-    .button_blue_note {
-        padding: 2px 15px;
-        margin: 10px;
+  .sidenav {
+      margin: 0;
+      padding: 0;
+      /* width: 200px; */
+      background-color: #faf4ed;
+      height: 100%;
+      overflow: auto;
+      border: none;
+      grid-column: 1/2 ;
+      grid-row: 1/-1;
+  }
+     .mobile_div_nav{
+          justify-content: right;
+          margin: 10px;
       }
-      .button_purple {
-        padding: 2px 15px;
-        margin: 10px;
+
+
+       nav{
+          padding: 10px; 
       }
-      .button_blue_save {
-        padding: 2px 15px;
-        margin: 10px;
-      }
-      .button_red {
-        padding: 2px 15px;
-        margin: 1px ;
-      } */
+  h2{
+      text-align: center;
+  }
+
+  .button_blue_note {
+      padding: 2px 15px;
+      margin: 10px;
+    }
+    .button_purple {
+      padding: 2px 15px;
+      margin: 10px;
+    }
+    .button_blue_save {
+      padding: 2px 15px;
+      margin: 10px;
+    }
+    .button_red {
+      padding: 2px 15px;
+      margin: 10px ;
+    }
 }
 
