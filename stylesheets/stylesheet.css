@@ -33,7 +33,7 @@ a{
 textarea {
     resize: none;
     max-width: 100%;
-    width: 1500px; 
+    width: 1000px; 
     height: 200px;
     margin: 10px ;
 
@@ -116,8 +116,8 @@ button{
 @media screen and (min-width: 600px) {
     body{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 2fr 3fr;
+        grid-template-columns: 1fr 2fr ;
+        grid-template-rows: 2fr 3fr 2fr;
        
     }
 
@@ -133,13 +133,6 @@ button{
         grid-column: 1/2 ;
         grid-row: 1/-1;
     }
-
-        .button_blue_save {
-        background-color: red;
-        padding: 1% 5%;
-        margin: 10px;
-        }
-    
         .mobile_div_nav{
             justify-content: right;
             margin: 10px;
@@ -150,11 +143,21 @@ button{
     h2{
         text-align: center;
     }
-    .bigbox
-    {
-        grid-column: 3/-1;
-        grid-row: 3/3
-    }
 
-
+    .button_blue_note {
+        padding: 1% 5%;
+        margin: 10px;
+      }
+      .button_purple {
+        padding: 1% 5%;
+        margin: 10px;
+      }
+      .button_blue_save {
+        padding: 0;
+        margin: 10px;
+      }
+      .button_red {
+        padding: 12;
+        margin: 10px ;
+      }
 }
