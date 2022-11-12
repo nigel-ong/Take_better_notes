@@ -30,15 +30,14 @@ a{
 
 .div_textbox{
   display: flex;
+  height: 30vh;
+  
 }
 
 textarea {
   resize: none;
-  max-width: 100%;
-  width: 1000px; 
-  height: 200px;
-  margin: 10px ;
-
+  margin: 10px;
+  flex-grow: 1;
 }
 
 .mobile_div_bottom_buttons{
