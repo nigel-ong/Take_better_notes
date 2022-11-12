@@ -114,6 +114,8 @@ button{
     /* position: fixed; */
     /* height: 200px; */
     overflow: auto;
+    border-top: black solid 2px ;
+    border-bottom: black solid 2px ;
   }
   
 
@@ -127,3 +129,8 @@ button{
         height: 100%;
         overflow: auto;
     }
+
+    .button_blue_note {
+    background-color: red;
+    padding: 1% 5%;
+    margin: 10px;
