@@ -65,7 +65,7 @@ img {
     height: auto;
   }
 
-/* button{
+button{
     border: 0;
     line-height: 2.5;
     padding: 2px 15px;
@@ -73,9 +73,9 @@ img {
     text-align: center;
     color: #fff;
     border-radius: 10px;
-} */
+}
 
-  /* .button_blue_note {
+  .button_blue_note {
     background-color: #0E4358;
     padding: 1% 5%;
     margin: ;
@@ -89,7 +89,7 @@ img {
   }
   .button_red {
     background-color: #d9827c;
-  } */
+  }
 
 
   li{
