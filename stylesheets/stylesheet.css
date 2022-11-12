@@ -145,19 +145,19 @@ button{
     }
 
     .button_blue_note {
-        padding: 1% 5%;
+        padding: 2px 15px;
         margin: 10px;
       }
       .button_purple {
-        padding: 1% 5%;
+        padding: 2px 15px;
         margin: 10px;
       }
       .button_blue_save {
-        padding: 0;
+        padding: 2px 15px;
         margin: 10px;
       }
       .button_red {
-        padding: 12;
-        margin: 10px ;
+        padding: 2px 15px;
+        /* margin: 1px ; */
       }
 }
