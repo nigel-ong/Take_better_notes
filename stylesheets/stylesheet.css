@@ -27,15 +27,17 @@ a{
 
 }
 
-/* .div_textbox{
+.div_textbox{
     display: flex;
-    flex-grow:;
-} */
+}
 
 textarea {
     resize: none;
-    width :1400px;
+    max-width: 100%;
+    width: 1500px; 
     height: 200px;
+    margin: 10px ;
+
   }
 
 .mobile_div_bottom_buttons{
@@ -78,17 +80,22 @@ button{
   .button_blue_note {
     background-color: #0E4358;
     padding: 1% 5%;
-    margin: ;
+    margin: 10px;
   }
   .button_purple {
     background-color: #6e6987;
+    padding: 1% 5%;
+    margin: 10px;
   }
   .button_blue_save {
     background-color: #0E4358;
-
+    padding: 1% 5%;
+    margin: 10px;
   }
   .button_red {
     background-color: #d9827c;
+    padding: 1% 5%;
+    margin: 10px;
   }
 
 
@@ -108,16 +115,6 @@ button{
     /* height: 200px; */
     overflow: auto;
   }
-
-  textarea {
-    resize: none;
-  }
-
-  /* div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  } */
   
 
   /* @media screen and (max-width: 700px) {
