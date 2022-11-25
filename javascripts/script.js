@@ -2,7 +2,7 @@ const ThemeButton = document.querySelector(".button_purple");
 
 const noteArray = 
 [
-    {title:"note one", body:"this is my first note"}
+    {title:"note one", body:"this is my first note"},
     {title:"note two", body:"this is my second note"}
 ]
 
@@ -16,8 +16,10 @@ function changeText()
 
 ThemeButton.addEventListener("click", changeText);
 
-const noteArray = 
-[
-    {title:"note one", body:"this is my first note"}
-    {title:"note two", body:"this is my second note"
-]
+function DarkMode() 
+{
+    document.body.classList.toggle('darkmode');
+    document.querySelector('aside').classList.toggle('dark-sidenav');
+}
+
+ThemeButton.addEventListener("click", DarkMode);
