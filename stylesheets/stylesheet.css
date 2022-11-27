@@ -70,27 +70,26 @@ button{
   text-align: center;
   color: #fff;
   border-radius: 10px;
+  margin: 10px;
+  padding: 1% 5%;
 }
 
 .button_blue_note {
   background-color: #0E4358;
-  padding: 1% 5%;
-  margin: 10px;
+
+
 }
 .button_purple {
   background-color: #6e6987;
-  padding: 1% 5%;
-  margin: 10px;
+
 }
 .button_blue_save {
   background-color: #0E4358;
-  padding: 1% 5%;
-  margin: 10px;
+
 }
 .button_red {
   background-color: #d9827c;
-  padding: 1% 5%;
-  margin: 10px;
+
 }
 
 li{
@@ -111,10 +110,15 @@ li{
 
 .darkmode {
   background-color:#1e1e1e;
+  color: #4fc1ff;
 }
 
 .dark-sidenav{
-  background-color: grey;
+  background-color: #252526;
+}
+
+.dark-notearea{
+  background-color: #2d2d2d;
 }
 
 @media (min-width: 600px) {

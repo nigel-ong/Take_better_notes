@@ -20,6 +20,7 @@ function DarkMode()
 {
     document.body.classList.toggle('darkmode');
     document.querySelector('aside').classList.toggle('dark-sidenav');
+    document.querySelector('textarea').classList.toggle('dark-notearea');
 }
 
 ThemeButton.addEventListener("click", DarkMode);
