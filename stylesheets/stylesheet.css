@@ -13,12 +13,16 @@ h1{
 
 a{
   text-decoration: none;
+
+}
+nav a {
+  margin: 3px;
 }
 
-.mobile_div_nav{
+nav{
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .mobile_div_top_buttons{
@@ -76,20 +80,18 @@ button{
 
 .button_blue_note {
   background-color: #0E4358;
-
-
 }
+
 .button_purple {
   background-color: #6e6987;
-
 }
+
 .button_blue_save {
   background-color: #0E4358;
-
 }
+
 .button_red {
   background-color: #d9827c;
-
 }
 
 li{
@@ -138,14 +140,11 @@ li{
       grid-column: 1/2 ;
       grid-row: 1/-1;
   }
-     .mobile_div_nav{
-          justify-content: right;
-          margin: 10px;
-      }
-
 
        nav{
           padding: 10px; 
+          justify-content: right;
+          margin: 10px;
       }
   h2{
       text-align: center;
