@@ -24,3 +24,23 @@ function DarkMode()
 }
 
 ThemeButton.addEventListener("click", DarkMode);
+
+const CancelButton = document.querySelector(".button_red");
+
+function cancel()
+{
+    document.querySelector('textarea').classList.add('hidden')
+    document.querySelector('.mobile_div_bottom_buttons').classList.add('hidden')
+}
+
+CancelButton.addEventListener('click', cancel)
+
+// const NewNoteButton = document.querySelector(".button_red");
+
+// function NewNoteButton()
+// {
+//     document.querySelector('textarea').classList.remove('hidden')
+//     document.querySelector('.mobile_div_bottom_buttons').classList.remove('hidden')
+// }
+
+// NewNoteButton.addEventListener('click', cancel)

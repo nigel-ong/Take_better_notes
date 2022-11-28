@@ -123,6 +123,10 @@ li{
   background-color: #2d2d2d;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (min-width: 600px) {
   body{
       display: grid;
