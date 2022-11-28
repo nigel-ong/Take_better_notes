@@ -53,6 +53,12 @@ let input = "";
 function savenote()
 {
     input = prompt("Enter title of note.");
+    const newlistitem = document.getElementById("NOTESLIST");
+    const listitem = document.createElement('li');
+    listitem.textContent = input;
+    newlistitem.appendChild(listitem);
+    document.querySelector('textarea').value = '';
+    noteArray.push({title:input, body:null})
 }
 
 SaveButton.addEventListener('click', savenote)
