@@ -35,13 +35,24 @@ function cancel()
 
 CancelButton.addEventListener('click', cancel)
 
-const NewNoteButton = document.querySelector(".newnote");
+const NewNoteButton = document.querySelector(".button_blue_note");
 
 function newnote()
 {
     document.querySelector('textarea').classList.remove('hidden')
     document.querySelector('.mobile_div_bottom_buttons').classList.remove('hidden')
-    // document.querySelector('textarea').value = '';
+    document.querySelector('textarea').value = '';
 }
 
 NewNoteButton.addEventListener('click', newnote)
+
+const SaveButton = document.querySelector(".button_blue_save")
+
+let input = "";
+
+function savenote()
+{
+    input = prompt("Enter title of note.");
+}
+
+SaveButton.addEventListener('click', savenote)
