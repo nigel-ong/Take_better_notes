@@ -57,8 +57,8 @@ function savenote()
     const listitem = document.createElement('li');
     listitem.textContent = input;
     newlistitem.appendChild(listitem);
-    document.querySelector('textarea').value = '';
-    noteArray.push({title:input, body:null})
+    const textvalue = document.querySelector('textarea').value;
+    noteArray.push({title:input, body:textvalue})
 }
 
 SaveButton.addEventListener('click', savenote)
