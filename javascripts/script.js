@@ -35,12 +35,13 @@ function cancel()
 
 CancelButton.addEventListener('click', cancel)
 
-// const NewNoteButton = document.querySelector(".button_red");
+const NewNoteButton = document.querySelector(".newnote");
 
-// function NewNoteButton()
-// {
-//     document.querySelector('textarea').classList.remove('hidden')
-//     document.querySelector('.mobile_div_bottom_buttons').classList.remove('hidden')
-// }
+function newnote()
+{
+    document.querySelector('textarea').classList.remove('hidden')
+    document.querySelector('.mobile_div_bottom_buttons').classList.remove('hidden')
+    // document.querySelector('textarea').value = '';
+}
 
-// NewNoteButton.addEventListener('click', cancel)
+NewNoteButton.addEventListener('click', newnote)
