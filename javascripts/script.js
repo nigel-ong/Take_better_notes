@@ -66,7 +66,6 @@ SaveButton.addEventListener('click', savenote)
 
 function returnnote(ev)
 {
-    // console.log(ev.target.textContent)
     for (let i = 0; i < noteArray.length; i++){
         if (noteArray[i].title === ev.target.textContent){ 
         document.querySelector('textarea').value = noteArray[i].body ;
@@ -74,16 +73,5 @@ function returnnote(ev)
     }
 
 }
-
-// function coloringgreen(){
-//     const listItems = document.querySelectorAll(".shopping li");
-//     for (let i = 0; i < listItems.length; i++)
-//     {
-//         if(listItems[i].textContent.includes('green')){
-//         listItems[i].classList.add("greentext");
-//         }
-//     }
-
-// }
 
 sidenotelist.addEventListener('click', returnnote)
