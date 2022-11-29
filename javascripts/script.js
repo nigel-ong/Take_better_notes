@@ -50,15 +50,40 @@ const SaveButton = document.querySelector(".button_blue_save")
 
 let input = "";
 
+const sidenotelist = document.getElementById("NOTESLIST");
+
 function savenote()
 {
-    input = prompt("Enter title of note.");
-    const newlistitem = document.getElementById("NOTESLIST");
-    const listitem = document.createElement('li');
-    listitem.textContent = input;
-    newlistitem.appendChild(listitem);
+    const newlistitem = document.createElement('li');
     const textvalue = document.querySelector('textarea').value;
+    input = prompt("Enter title of note.");
+    newlistitem.textContent = input;
+    sidenotelist.appendChild(newlistitem);
     noteArray.push({title:input, body:textvalue})
 }
 
 SaveButton.addEventListener('click', savenote)
+
+function returnnote(ev)
+{
+    // console.log(ev.target.textContent)
+    for (let i = 0; i < noteArray.length; i++){
+        if (noteArray[i].title === ev.target.textContent){ 
+        document.querySelector('textarea').value = noteArray[i].body ;
+        }
+    }
+
+}
+
+// function coloringgreen(){
+//     const listItems = document.querySelectorAll(".shopping li");
+//     for (let i = 0; i < listItems.length; i++)
+//     {
+//         if(listItems[i].textContent.includes('green')){
+//         listItems[i].classList.add("greentext");
+//         }
+//     }
+
+// }
+
+sidenotelist.addEventListener('click', returnnote)
