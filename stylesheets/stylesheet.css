@@ -13,12 +13,16 @@ h1{
 
 a{
   text-decoration: none;
+
+}
+nav a {
+  margin: 3px;
 }
 
-.mobile_div_nav{
+nav{
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .mobile_div_top_buttons{
@@ -70,27 +74,24 @@ button{
   text-align: center;
   color: #fff;
   border-radius: 10px;
+  margin: 10px;
+  padding: 1% 5%;
 }
 
 .button_blue_note {
   background-color: #0E4358;
-  padding: 1% 5%;
-  margin: 10px;
 }
+
 .button_purple {
   background-color: #6e6987;
-  padding: 1% 5%;
-  margin: 10px;
 }
+
 .button_blue_save {
   background-color: #0E4358;
-  padding: 1% 5%;
-  margin: 10px;
 }
+
 .button_red {
   background-color: #d9827c;
-  padding: 1% 5%;
-  margin: 10px;
 }
 
 li{
@@ -109,6 +110,22 @@ li{
   min-width: 100px;
 }
 
+.darkmode {
+  background-color:#1e1e1e;
+  color: #4fc1ff;
+}
+
+.dark-sidenav{
+  background-color: #252526;
+}
+
+.dark-notearea{
+  background-color: #2d2d2d;
+}
+
+.hidden {
+  display: none;
+}
 
 @media (min-width: 600px) {
   body{
@@ -122,20 +139,16 @@ li{
   .sidenav {
       margin: 0;
       padding: 0;
-      background-color: #faf4ed;
       overflow: auto;
       border: none;
       grid-column: 1/2 ;
       grid-row: 1/-1;
   }
-     .mobile_div_nav{
-          justify-content: right;
-          margin: 10px;
-      }
-
 
        nav{
           padding: 10px; 
+          justify-content: right;
+          margin: 10px;
       }
   h2{
       text-align: center;
